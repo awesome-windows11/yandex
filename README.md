@@ -9,4 +9,5 @@ reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\YandexBrowser" /v NtpContentDisabl
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\YandexBrowser" /v StatisticsReporting /t REG_DWORD /d 0 /f
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\YandexBrowser" /v SyncDisabled /t REG_DWORD /d 1 /f
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\YandexBrowser" /v UpdateAllowed /t REG_DWORD /d 0 /f
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\YandexBrowser" /v YandexAliceMsgDisable /t REG_DWORD /d 1 /f
 ```
